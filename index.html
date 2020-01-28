@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Github User Search</title>
+  </head>
+  <body>
+    <nav id="main-nav">
+      <div class="container">
+        <h1>Github Profile Searcher</h1>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1>Search Github Users</h1>
+        </div>
+        <form id="github-form">
+          <h3>Enter a username to find a user profile</h3>
+          <input
+            type="text"
+            name=""
+            id="github-input"
+            placeholder="Github Username..."
+          />
+          <!-- <br />
+          <div class="alert">
+            <p>Merhaba</p>
+          </div> -->
+          <br />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+
+    <section id="profile">
+      <div class="container">
+        <div class="profile-container">
+          <!-- <div class="profile-img">
+            <img
+              src="/81987632_521724528441127_2411995191813603328_n.jpg"
+              alt=""
+            />
+            <a href="https://github.com/mustafamuratcoskun">View Profile</a>
+          </div>
+          <div class="profile-info">
+            <button class="specs">Public Repos:</button>
+            <button class="specs">Public Gists:</button>
+            <button class="specs">Followers:</button>
+            <button class="specs">Following:</button>
+            <ul>
+              <li>Company:</li>
+              <li>Website/Blog:</li>
+              <li>Email:</li>
+              <li>Location:</li>
+              <li>Member since:</li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section id="repos">
+      <div class="container">
+        <h1>Latest Repos</h1>
+        <div id="repo-container">
+          <!-- <div class="repo-content">
+            <div class="repo-link">
+              <a href="#">Repo Name</a>
+            </div>
+            <div class="repo-infos">
+              <button>Stars:</button>
+              <button>Wathcers Gists:</button>
+              <button>Forks:</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section id="search">
+      <div class="container">
+        <h1>Latest Searchs</h1>
+        <ul id="search-list">
+          <!-- <li>username</li> -->
+        </ul>
+        <button id="clear-search">Clear All Search</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>Made By Front-End JS Developer</p>
+        <h3>Rıdvan Baskan</h3>
+      </div>
+      <div class="footer-img">
+        <img
+          src="/14063927_1051374244947856_1291436694221592440_n.jpg"
+          alt=""
+        />
+      </div>
+    </footer>
+
+    <script src="github.js"></script>
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
